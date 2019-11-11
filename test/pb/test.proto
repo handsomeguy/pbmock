@@ -1,0 +1,81 @@
+package MY_NAMESPACE;
+import "common.proto";
+
+message Person {
+    optional string name = 1;
+    optional uint32  money11 = 2;
+    repeated int32  cjcj = 5[packed=true];
+    optional bytes  buffer = 3;
+    repeated fixed32  testhaha = 6;
+    optional sfixed32  ssa = 7;
+    optional caca.jiba test2 = 8;
+    repeated NS_COMM.gula gulakey = 4;
+
+    required Corpus dududa = 10;
+    map<int32,mama> myMapTest = 11;
+
+    optional oleiwa wula = 9;
+
+    oneof test_oneof {
+         string name12 = 13;
+         int32 guji = 12;
+         int32 guji2 = 14;
+    }
+
+    message caca {
+        required string worini = 1;
+        message jiba{
+            optional string worini23 = 1;
+            message guka{
+                required string key = 1;
+            }
+        }
+    }
+
+    enum Corpus {
+        option allow_alias = true;
+        UNIVERSAL = 0;
+        WEB = 1;
+        chula = 2;
+        galsid = 3;
+    }
+}
+message mama{
+    required string mama = 1;
+    extensions 4 to 30;
+    extensions 200,203;
+    reserved "foo", "bar";
+    reserved 222;
+    map<int32,Haha> myMapTest = 2;
+    oneof test_oneof {
+         string name = 4;
+         int32 guji = 9;
+    }
+
+    required oleiwa kuku = 5;
+    message oleiwa{
+        required string dingka = 1;
+    }
+}
+message oleiwa {
+    optional int32 dingka = 1;
+    message olei {
+        optional string mygame = 1;
+    }
+}
+
+message Haha{
+    optional string test = 1;
+    extensions 2 to 30;
+    extend Haha{
+        optional int32 money = 15;
+    }
+}
+
+message Easy{
+    optional string nihao = 1;
+    required NS_COMM.test nihao2 = 2;
+}
+
+ 
+ 

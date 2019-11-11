@@ -1,0 +1,27 @@
+{
+  "name": "@tencent/pbmock",
+  "version": "1.0.2",
+  "description": "tiny library to mock pb data",
+  "main": "index.js",
+  "scripts": {
+    "instance": "node ./test/instance.js",
+    "test": "jest",
+    "docs:dev": "npx vuepress dev vuepress",
+    "docs:build": "npx vuepress build vuepress"
+  },
+  "keywords": [
+    "pb",
+    "mock",
+    "data"
+  ],
+  "author": "jacksonzeng",
+  "license": "MIT",
+  "dependencies": {
+    "mockjs": "^1.1.0",
+    "protobufjs": "^6.8.8"
+  },
+  "devDependencies": {
+    "jest": "^24.9.0",
+    "vuepress": "^1.2.0"
+  }
+}

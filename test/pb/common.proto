@@ -1,0 +1,16 @@
+package NS_COMM;
+
+message gula{
+    optional string name = 1;
+    required string key = 2;
+
+    message jibahua{
+        required string name = 1;
+        required MY_NAMESPACE.Haha duda = 2;
+    }
+}
+
+message test{
+    optional string gula = 1;
+    required gula.jibahua piga = 2;
+}
