@@ -13,7 +13,7 @@
 
 ### Getting started
 ```
-tnpm install @tencent/pbmock --save-dev
+npm install pbmock --save-dev
 ```
 
 ### Usage
