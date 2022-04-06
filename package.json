@@ -22,6 +22,7 @@
   },
   "devDependencies": {
     "jest": "^24.9.0",
+    "pbmock": "^1.0.3",
     "vuepress": "^1.2.0"
   }
 }

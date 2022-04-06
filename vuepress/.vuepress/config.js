@@ -5,7 +5,7 @@ module.exports = {
     themeConfig:{
       nav: [
         { text: 'Home', link: '/' },
-        { text: 'Github', link: 'https://git.code.oa.com/jacksonzeng/pbmock' },
+        { text: 'Github', link: 'https://xxxx/jacksonzeng/pbmock' },
         { text: 'VuePress', link: 'https://vuepress.vuejs.org/' },
       ],
       sidebar: [
